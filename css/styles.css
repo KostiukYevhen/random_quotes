@@ -1,0 +1,72 @@
+body {
+  background-color: #1EBF97;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.7;
+}
+.random-quote {
+  display: table;
+  padding: 30px;
+  color: #1EBF97;
+  background-color: #fff;
+  width: 35%;
+  margin: 10% auto auto auto;
+  border-radius: 10px;
+}
+blockquote {
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  border: none;
+}
+blockquote > p {
+  width: 90%;
+  margin: 0 auto;
+}
+blockquote span {
+  font-size: 35px;
+}
+cite {
+  display: block;
+  text-align: right;
+  padding-top: 20px;
+  font-size: 22px;
+}
+.twit {
+  float: left;
+  font-size: 20px;
+  color: #fff;
+  background: #1EBF97;
+  border: 1px solid #1EBF97;
+  border-radius: 2px;
+  padding: 8px 10px;
+}
+.twit:hover {
+  opacity: 0.8;
+}
+.next {
+  float: right;
+  font-size: 20px;
+  color: #fff;
+  background: #1EBF97;
+  border: 1px solid #1EBF97;
+  border-radius: 2px;
+  padding: 8px 10px;
+}
+.next:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+footer {
+  margin: 0 auto;
+  padding-top: 15px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
