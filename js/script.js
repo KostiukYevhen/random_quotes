@@ -60,7 +60,7 @@ let quotes = [
     author: "Sir Winston Churchill"
   },
 ];
-let i = 0, j =0;
+let i = 0, j = 0;
 let colors = [
   '#16a085',
   '#27ae60',
@@ -107,4 +107,9 @@ $(".next").on("click", function() {
   };
 });
 
-$(".twit").attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + quotes[i].quote + '" ' + quotes[i].author));
+// $(".twit").attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + quotes[i].quote + '" ' + quotes[i].author));
+
+$(".twit").on("click", function () {
+  var url = 'http://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + quotes[i].quote + " - " + quotes[i].author;
+  window.open(url, 'twitter');
+});
